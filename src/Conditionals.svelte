@@ -9,7 +9,7 @@
   };
 </script>
 
-<h2>Conditionnals</h2>
+<h2>Conditionals</h2>
 <button on:click={increment}>Increment</button>
 <button on:click={reset}>Reset</button>
 <div class="counter">{counter}</div>

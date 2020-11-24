@@ -3,8 +3,12 @@
   import Counter from './Counter.svelte'
   import Lists from './Lists.svelte'
   import Toggle from './Toggle.svelte'
-  import Conditionnals from './Conditionnals.svelte'
+  import Conditionnals from './Conditionals.svelte'
   import Loops from './Loops.svelte'
+  import Binding from './Binding.svelte'
+  import Forms from './Forms.svelte'
+  import Inputs from './Inputs.svelte'
+  import Reactivity from './Reactivity.svelte'
 </script>
 
 <!-- Function counter -->
@@ -24,7 +28,23 @@
 <div class="separator"></div>
 
 <!-- Loops -->
-<Loops />
+<Loops/>
+<div class="separator"></div>
+
+<!-- Forms -->
+<Binding />
+<div class="separator"></div>
+
+<!-- Forms -->
+<Forms />
+<div class="separator"></div>
+
+<!-- Inputs -->
+<Inputs />
+<div class="separator"></div>
+
+<!-- Reactivity -->
+<Reactivity />
 <div class="separator"></div>
 
 <style>
