@@ -9,6 +9,9 @@
   import Forms from './Forms.svelte'
   import Inputs from './Inputs.svelte'
   import Reactivity from './Reactivity.svelte'
+  import ReactivityArray from './ReactivityArray.svelte'
+  import Components from './Components.svelte'
+ 
 </script>
 
 <!-- Function counter -->
@@ -46,6 +49,16 @@
 <!-- Reactivity -->
 <Reactivity />
 <div class="separator"></div>
+
+<!-- ReactivityArray -->
+<ReactivityArray />
+<div class="separator"></div>
+
+<!-- Components -->
+<Components />
+<div class="separator"></div>
+
+
 
 <style>
   .separator {
