@@ -1,17 +1,20 @@
 <script>
   // Import components
-  import Counter from './Counter.svelte'
-  import Lists from './Lists.svelte'
-  import Toggle from './Toggle.svelte'
-  import Conditionnals from './Conditionals.svelte'
-  import Loops from './Loops.svelte'
-  import Binding from './Binding.svelte'
-  import Forms from './Forms.svelte'
-  import Inputs from './Inputs.svelte'
-  import Reactivity from './Reactivity.svelte'
-  import ReactivityArray from './ReactivityArray.svelte'
-  import Components from './Components.svelte'
- 
+  import Counter from './Components/Counter.svelte'
+  import Lists from './Components/Lists.svelte'
+  import Toggle from './Components/Toggle.svelte'
+  import Conditionnals from './Components/Conditionals.svelte'
+  import Loops from './Components/Loops.svelte'
+  import Binding from './Components/Binding.svelte'
+  import Forms from './Components/Forms.svelte'
+  import Inputs from './Components/Inputs.svelte'
+  import Reactivity from './Components/Reactivity.svelte'
+  import ReactivityArray from './Components/ReactivityArray.svelte'
+  import Components from './Components/Components.svelte'
+  import CardUIParent from './Components/CardUIParent.svelte'
+  import TabUi from './Components/TabUi.svelte';
+  import Navbar from './Components/Navbar.svelte';
+
 </script>
 
 <!-- Function counter -->
@@ -58,7 +61,15 @@
 <Components />
 <div class="separator"></div>
 
+<!-- UI: Modal -->
+<CardUIParent />
 
+<!-- UI: Tabs -->
+<TabUi />
+
+<!-- UI: Navbar -->
+<Navbar />
+<div class="separator"></div>
 
 <style>
   .separator {
