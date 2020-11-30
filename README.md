@@ -2,7 +2,7 @@
 
 November 2020
 
-> 🔨  **Svelte.js** is a JavaScript library for manipulating documents based on data. **D3** helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
+> 🔨  **Svelte.js**  is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
 >
 > From Udemy: [Svelte de A à Z](https://www.udemy.com/course/svelte-de-a-a-z/)
 
@@ -29,6 +29,10 @@ November 2020
 - Store writable/readable - subscribe - set - update - destroy -subscribe several components
 - Custom store
 
+## How to test
+
+- Clone
+- `npm run dev`
 
 ## Useful links
 
