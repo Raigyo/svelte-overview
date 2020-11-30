@@ -7,7 +7,7 @@
   export let race;
 </script>
 
-<h3>{titleA}</h3>
+<h5>{titleA}</h5>
 <ul>
   <li>Name: {name}</li>
   <li>Race: {race}</li>
@@ -17,7 +17,7 @@
 </ul>
 
 <style>
-  h3 {
+  h5 {
     color: rgb(67, 65, 99);
   }
 </style>

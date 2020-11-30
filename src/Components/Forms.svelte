@@ -17,7 +17,7 @@
       <label for="country">Your country</label>
       <input
         bind:value={objDataForm.country}
-        id="country"
+        id="sentCountry"
         class="form-control"
         type="text"
       >

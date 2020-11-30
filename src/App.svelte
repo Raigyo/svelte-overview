@@ -14,6 +14,10 @@
   import CardUIParent from './Components/CardUIParent.svelte'
   import TabUi from './Components/TabUi.svelte';
   import Navbar from './Components/Navbar.svelte';
+  import Store from './Components/Store.svelte';
+  import StoreComponents from './Components/StoreComponents.svelte';
+  import StoreCustom from './Components/StoreCustom.svelte';
+  import StoreDark from './Components/StoreDark.svelte';
 
 </script>
 
@@ -69,6 +73,16 @@
 
 <!-- UI: Navbar -->
 <Navbar />
+<div class="separator"></div>
+
+<!-- Store -->
+<Store />
+<!-- Store several components-->
+<StoreComponents />
+<!-- Store custom -->
+<StoreCustom />
+<!-- Store dark mode -->
+<StoreDark />
 <div class="separator"></div>
 
 <style>
