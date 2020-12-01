@@ -37,5 +37,7 @@ November 2020
 
 ## Useful links
 
-- [Svelte](https://github.com/Ziratsu/D3-Formation-CodeSource)
+- [Svelte.js](https://svelte.dev/)
+- [Getting started with Svelte](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started)
+- [Svelte sources](https://github.com/Ziratsu/SourceSvelte)
 
