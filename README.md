@@ -32,6 +32,7 @@ November 2020
 ## How to test
 
 - Clone
+- `npm install`
 - `npm run dev`
 
 ## Useful links
