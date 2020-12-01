@@ -39,5 +39,5 @@ November 2020
 
 - [Svelte.js](https://svelte.dev/)
 - [Getting started with Svelte](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started)
-- [Svelte sources](https://github.com/Ziratsu/SourceSvelte)
+- [Svelte training sources](https://github.com/Ziratsu/SourceSvelte)
 
